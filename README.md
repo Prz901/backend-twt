@@ -6,8 +6,9 @@
 
 # Antes de rodar o projeto crie um arquivo .env na raiz do projeto e coloque as seguintes variaveis
 
-MONGO_URI=mongodb://unzp0iy7cdajd1jdy7gw:6T2WQFycR9KLUBgLPLYt@bzjtpyw2ybt2rxl-mongodb.services.clever-cloud.com:27017/bzjtpyw2ybt2rxl
-SECRET=DWOKIVHDF!@#$!$#@
+- MONGO_URI=mongodb://unzp0iy7cdajd1jdy7gw:6T2WQFycR9KLUBgLPLYt@bzjtpyw2ybt2rxl-mongodb.services.clever-cloud.com:27017/bzjtpyw2ybt2rxl
+
+- SECRET=DWOKIVHDF!@#$!$#@
 
 # Logo apos use o comando para iniciar o backend Run yarn dev ou run yarn start para dar start o projeto
 
