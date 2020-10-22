@@ -47,7 +47,7 @@ http://localhost:8080/api/user
 
 - Retorn um json com um _id copie e coloque na rota seguinte para criar um comentario nesse post
 
-# Rota de criação de comentario em um determinado post - http://localhost:8080/api/post/{id do post criado na rota de criar post}/comment
+# Rota de criação de comentario em um determinado post - http://localhost:8080/api/post/{ id do post criado na rota de criar post}/comment
 
 - Precisa de um Json no formato 
 {
@@ -58,9 +58,9 @@ http://localhost:8080/api/user
 
 - http://localhost:8080/api/post - Retorna todos os Posts
 
-- http://localhost:8080/api/post/{id do post} - Retorna um Post pelo id 
+- http://localhost:8080/api/post/{ id do post} - Retorna um Post pelo id 
 
-- http://localhost:8080/api/post/{id do post}/comment - Retorna um comentário pelo id do post
+- http://localhost:8080/api/post/{ id do post}/comment - Retorna um comentário pelo id do post
 
 # Rotas a mais que criei que nao precisam de token
 
