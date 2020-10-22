@@ -1,7 +1,7 @@
 require('dotenv').config()
 const controllers = require('./controllers')
 
-const port = process.env.PORT || process.argv[2] || 3000
+const port = process.env.PORT || process.argv[2] || 8080
 
 const serverConfig = require('./config')
 
