@@ -56,11 +56,11 @@ http://localhost:8080/api/user
 
 # Rotas que nao precisam de token 
 
-- http://localhost:8080/api/post Retorna todos os Posts
+- http://localhost:8080/api/post - Retorna todos os Posts
 
 - http://localhost:8080/api/post/{id do post} - Retorna um Post pelo id 
 
-- http://localhost:8080/api/post/{id do post}/comment -Retorna um comentário pelo id do post
+- http://localhost:8080/api/post/{id do post}/comment - Retorna um comentário pelo id do post
 
 # Rotas a mais que criei que nao precisam de token
 
