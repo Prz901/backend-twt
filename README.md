@@ -9,7 +9,7 @@
 MONGO_URI=mongodb://unzp0iy7cdajd1jdy7gw:6T2WQFycR9KLUBgLPLYt@bzjtpyw2ybt2rxl-mongodb.services.clever-cloud.com:27017/bzjtpyw2ybt2rxl
 SECRET=DWOKIVHDF!@#$!$#@
 
-- Run yarn dev ou run yarn start para dar start o projeto
+# Logo apos use o comando para iniciar o backend Run yarn dev ou run yarn start para dar start o projeto
 
 # Documentação das rotas Para o funcionamento do backend
 
@@ -47,9 +47,7 @@ http://localhost:8080/api/user
 
 - Retorn um json com um _id copie e coloque na rota seguinte para criar um comentario nesse post
 
-# Rota de criação de comentario em um determinado post
-
-http://localhost:8080/api/post/{id do post criado na rota de criar post}/comment
+# Rota de criação de comentario em um determinado post - http://localhost:8080/api/post/{id do post criado na rota de criar post}/comment
 
 - Precisa de um Json no formato 
 {
